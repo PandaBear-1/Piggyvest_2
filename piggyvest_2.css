@@ -14,6 +14,10 @@ body{
     margin-left: auto;
 }
 
+.body_container .first_grid_img, .second_grid, .third_grid{
+    cursor: pointer;
+}
+
 nav{
     position: fixed;
     top: 0px;
@@ -35,12 +39,22 @@ nav{
 .nav_1 {
     display: flex;
 }
-
+.nav_1 img:hover{
+    cursor: pointer;
+}
 .nav_links{
 display: flex;
 gap: 1rem;
 list-style-type: none;
 margin-left: 2rem;
+}
+
+.nav_links:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 button:first-child{
@@ -163,6 +177,11 @@ section.first_grid{
 .grid_links{
     margin-bottom: 40px;
     margin-left: 20px;
+}
+
+.grid_links:hover{
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
 }
 
 .phone_img{

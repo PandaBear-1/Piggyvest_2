@@ -18,7 +18,7 @@ nav{
     position: fixed;
     top: 0px;
     left: 0;
-    height: 100%;
+    background-color: #f2f7f8;
     width: 100%;
     z-index: 999;
 }
@@ -112,7 +112,7 @@ section.first_grid{
 .first_grid_text p{
     font-size: 25px;
     font-weight: normal;
-    text-align: justify;
+    text-align-last: center;
     width: 65%;
     margin-top: 0;
     margin-left: 100px;

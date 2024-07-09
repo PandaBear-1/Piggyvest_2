@@ -138,9 +138,71 @@ section.first_grid{
     flex-basis: 100%;
     height: 100%;
     border-radius: 28px;
+    color: #0f60db;
+    background-color: #fff;
+    padding: 0;
+    transition: all .3s ease;
+}
+
+.first_grid_img p{
+    color: #0c1825;
+}
+
+.first_grid_img:hover img{
+    transition: all 0.3s ease;
+    transform: perspective(400px) translate3d(0px, 0px, 0px);
+    padding: 0;
+    opacity: 1;
+}
+
+.animation_1:hover{
     background-color: #0f60db;
     color: #fff;
-    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.animation_1:hover p, .animation_2:hover p, .animation_3:hover p, .animation_4:hover p, .animation_5:hover p{
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+
+
+animation_2{
+    color: #2295f2;
+}
+
+.animation_2:hover{
+    background-color: #2295f2;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.animation_3{
+    color: #10b259;
+}
+.animation_3:hover{
+    background-color: #10b259;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.animation_4{
+    color: #ea4fa2;
+}
+.animation_4:hover{
+    background-color: #ea4fa2;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.animation_5{
+    color: #0c1825;
+}
+.animation_5:hover{
+    background-color: #0c1825;
+    color: #fff;
+    transition: all 0.3s ease;
 }
 
 .first_grid_img div:first-child{
@@ -188,6 +250,17 @@ section.first_grid{
     width: 250px;
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: perspective(400px) translate3d(100px, 100px, -100px);
 }
+
+section.second_grid, .third_grid{
+    margin-top: 30px;
+    gap: 40px;
+}
+
+
 
